@@ -1,4 +1,4 @@
-require("./connection")
+require("./Connection")
 const pSchema=require("./Schema")
 const express=require("express")
 const multer=require("multer")
