@@ -35,7 +35,7 @@ app.post("/",(req,resp)=>
                     pprice:req.body.pprice,
                     pcat:req.body.pcat,
                     pdesc:req.body.pdesc,
-                    pimg:"http://localhost:4000/uploads/"+req.file.filename
+                    pimg:"https://amazon-gzp0.onrender.com/"+req.file.filename
                     
                 })
                 const entry=newData.save()
